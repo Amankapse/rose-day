@@ -1,0 +1,76 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: radial-gradient(#ff6699, #ff0033); /* Darker shades of pink and red */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+    padding: 100px 20px; /* Added more padding */
+}
+
+.message-container {
+    text-align: center;
+    padding: 50px 10px; /* Added more padding */
+}
+
+h1 {
+    color: #fff; /* White text */
+    font-size: 36px;
+    margin-bottom: 30px; /* Added spacing */
+    font-family: 'Comic Sans MS', cursive; /* Stylish font */
+}
+
+h2 {
+    color: #fff; /* White text */
+    font-size: 15px;
+    margin-bottom: 20px; /* Added spacing */
+    font-family: 'Comic Sans MS', cursive; /* Stylish font */
+}
+
+button {
+    color: #fff; /* White text */
+    background-color: #ff1493; /* Deep pink button */
+    border: none;
+    padding: 15px 30px;
+    font-size: 24px;
+    border-radius: 30px; /* Rounded button */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition */
+    font-family: 'Arial', sans-serif; /* Fallback font */
+}
+
+button:hover {
+    background-color: #ff69b4; /* Lighter pink on hover */
+}
+
+.love-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 40%; /* Adjust width as needed */
+    border-radius: 100px; /* Add a border radius for a rounded appearance */
+    box-shadow: 25px 0 20px rgba(0, 0, 0, 0.3); /* Add a subtle shadow */
+}
+
+.dialog {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.dialog-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
